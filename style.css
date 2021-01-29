@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  align-items: center;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+}
+
+.nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(187, 104, 166);
+  padding: 80px;
+}
+
+.hero-inner {
+  max-width: 750px;
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color: blue;
+  border-radius: 11px;
+  display: inline-block;
+  padding: 12px 20px;
+}
+
+.features {
+  background-color: grey;
+  padding: 20px 30px;
+}
+
+.features-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 45px;
+  grid-row-gap: 45px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  color: #999;
+  background-color: black;
+}
